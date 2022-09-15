@@ -1,0 +1,19 @@
+{
+    "name": "Angular ENV",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [4200],
+    "settings": {
+        "workbench.colorTheme" : "GitHub Dark"
+    },
+    "postCreateCommand": "npm install",
+    "extensions": [
+		"k--kato.intellij-idea-keybindings",
+		"Angular.ng-template",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"ritwickdey.LiveServer",
+		"esbenp.prettier-vscode",
+		"PKief.material-icon-theme",
+		"ecmel.vscode-html-css",
+		"GitHub.github-vscode-theme"
+	]
+}
