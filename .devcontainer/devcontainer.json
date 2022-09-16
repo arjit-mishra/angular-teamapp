@@ -1,11 +1,10 @@
 {
-    "name": "Angular ENV",
+    "name": "Angular teamapp",
     "dockerFile": "Dockerfile",
     "forwardPorts": [4200],
     "settings": {
         "workbench.colorTheme" : "GitHub Dark"
     },
-    "postCreateCommand": "npm install",
     "extensions": [
 		"k--kato.intellij-idea-keybindings",
 		"Angular.ng-template",
