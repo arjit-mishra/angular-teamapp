@@ -2,6 +2,7 @@
     "name": "Angular teamapp",
     "dockerFile": "Dockerfile",
     "forwardPorts": [4200],
+	"postCreateCommand": "npm install",
     "settings": {
         "workbench.colorTheme" : "GitHub Dark"
     },
